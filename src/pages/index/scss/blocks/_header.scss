@@ -31,6 +31,11 @@
         line-height: 24px;
     }
 
+    .header__content-text:nth-of-type(2) {
+        font-weight: 700;
+        display: none;
+    }
+
     &__content-socials {
         display: flex;
         align-items: center;
@@ -140,6 +145,13 @@
             margin: 0 12px 0 0;
         }
         &__content-btn {
+            display: block;
+        }
+    }
+}
+@media(min-width: 900px) {
+    .header {
+        .header__content-text:nth-of-type(2) {
             display: block;
         }
     }
