@@ -3,15 +3,15 @@
 			Created with Pixso.
 	</desc>
 	<defs>
-		<clipPath id="clip1_61">
-			<rect id="users" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		<clipPath id="clip85_556">
+			<rect id="User Interface/copy" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<rect id="users" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
-	<g clip-path="url(#clip1_61)">
-		<path id="Vector" d="M17 21L17 19C17 17.93 16.57 16.92 15.82 16.17C15.07 15.42 14.06 15 13 15L5 15C3.93 15 2.92 15.42 2.17 16.17C1.42 16.92 1 17.93 1 19L1 21" stroke="#234778" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-		<path id="Vector" d="M9 11C6.79 11 5 9.2 5 7C5 4.79 6.79 3 9 3C11.2 3 13 4.79 13 7C13 9.2 11.2 11 9 11Z" stroke="#234778" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
-		<path id="Vector" d="M23 21L23 19C22.99 18.11 22.7 17.25 22.16 16.55C21.61 15.85 20.85 15.35 20 15.12" stroke="#234778" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-		<path id="Vector" d="M16 3.12C16.86 3.35 17.62 3.85 18.16 4.55C18.71 5.25 19 6.11 19 7C19 7.89 18.71 8.75 18.16 9.45C17.62 10.15 16.86 10.65 16 10.87" stroke="#234778" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<g clip-path="url(#clip85_556)">
+		<path id="Rectangle 71 (Stroke)" d="M1 2C1 1.44 1.44 1 2 1L14 1C14.55 1 15 1.44 15 2L15 3.5L13 3.5L13 3L3 3L3 17L7.5 17L7.5 19L2 19C1.44 19 1 18.55 1 18L1 2Z" fill="#234778" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 71 (Stroke)" d="M9 6C9 5.44 9.44 5 10 5L22 5C22.55 5 23 5.44 23 6L23 22C23 22.55 22.55 23 22 23L10 23C9.44 23 9 22.55 9 22L9 6ZM11 7L11 21L21 21L21 7L11 7Z" fill="#234778" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector 176 (Stroke)" d="M17 12L13 12L13 10L17 10L17 12Z" fill="#234778" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector 176 (Stroke)" d="M19 15L13 15L13 13L19 13L19 15Z" fill="#234778" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector 176 (Stroke)" d="M16 18L13 18L13 16L16 16L16 18Z" fill="#234778" fill-opacity="1.000000" fill-rule="evenodd"/>
 	</g>
 </svg>

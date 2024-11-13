@@ -3,13 +3,13 @@
 			Created with Pixso.
 	</desc>
 	<defs>
-		<clipPath id="clip1_69">
-			<rect id="tag" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		<clipPath id="clip85_540">
+			<rect id="User Interface/home 1" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<rect id="tag" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
-	<g clip-path="url(#clip1_69)">
-		<path id="Vector" d="M13.42 20.58C13.23 20.76 13.01 20.91 12.77 21.01C12.52 21.11 12.26 21.16 12 21.16C11.74 21.16 11.48 21.11 11.23 21.01C10.99 20.91 10.77 20.76 10.59 20.58L2 12L2 2L12 2L20.59 10.59C20.96 10.96 21.17 11.47 21.17 12C21.17 12.52 20.96 13.03 20.59 13.4L13.42 20.58Z" stroke="#234778" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
-		<path id="Vector" d="M7 7L7.01 7" stroke="#234778" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<g clip-path="url(#clip85_540)">
+		<path id="Rectangle 11 (Stroke)" d="M12.65 4.87C12.27 4.55 11.72 4.55 11.34 4.87L6.34 9.16C6.12 9.35 6 9.62 6 9.91L6 19C6 19.55 6.44 20 7 20L17 20C17.55 20 18 19.55 18 19L18 9.91C18 9.62 17.87 9.35 17.65 9.16L12.65 4.87ZM10.04 3.35C11.17 2.39 12.82 2.39 13.95 3.35L18.95 7.64C19.61 8.21 20 9.04 20 9.91L20 19C20 20.65 18.65 22 17 22L7 22C5.34 22 4 20.65 4 19L4 9.91C4 9.04 4.38 8.21 5.04 7.64L10.04 3.35Z" fill="#234778" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 11 (Stroke)" d="M12.64 4.84C12.27 4.53 11.72 4.53 11.35 4.84L3.14 11.76L1.85 10.23L10.06 3.32C11.18 2.37 12.81 2.37 13.93 3.32L22.14 10.23L20.85 11.76L12.64 4.84Z" fill="#234778" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector 12 (Stroke)" d="M11.5 14C10.94 14 10.5 14.44 10.5 15L10.5 19L8.5 19L8.5 15C8.5 13.34 9.84 12 11.5 12L12.5 12C14.15 12 15.5 13.34 15.5 15L15.5 19L13.5 19L13.5 15C13.5 14.44 13.05 14 12.5 14L11.5 14Z" fill="#234778" fill-opacity="1.000000" fill-rule="evenodd"/>
 	</g>
 </svg>
