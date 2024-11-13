@@ -1,0 +1,22 @@
+@use 'swiper/css';
+@use 'swiper/css/pagination';
+@use 'swiper/css/navigation';
+
+@use "section/hero";
+@use "section/benefits";
+@use "section/faq";
+@use "section/obtaining";
+@use "section/reviews";
+@use "section/guarantees";
+@use "section/other-services";
+@use "section/price";
+@use "section/contacts";
+@use "section/bottom";
+
+@use "modal/modal-order";
+@use "modal/modal-info";
+@use "modal/modal-license";
+@use "modal/tg";
+@use "modal/ws";
+@use "modal/modal-services";
+
