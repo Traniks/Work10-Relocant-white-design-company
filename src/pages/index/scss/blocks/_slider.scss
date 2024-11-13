@@ -1,0 +1,121 @@
+.swiper {
+    margin: 0 auto 0 auto;
+    // padding: 50px 0 50px 0;
+    padding: 50px 0 70px 0;
+    width: 280px;
+}
+.swiper-slide {
+    position: relative;
+    // height: 440px;
+    // padding: 0 30px;
+    height: 600px;
+
+    &__img {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+#reviews-slider-1 {
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        height: 400px;
+    }
+}
+
+.swiper-button-prev {
+    left: 0;
+    top: 97%;
+    &:after {
+        display: none;
+        content: "";
+    }
+
+    img {
+        display: block;
+        position: absolute;
+        left: 0;
+        z-index: var(--index-topmost);
+        // width: 100%;
+        width: 44px;
+    }
+}
+
+.swiper-button-next {
+    right: 0;
+    top: 97%;
+    &:after {
+        display: none;
+        content: "";
+    }
+
+    img {
+        display: block;
+        position: absolute;
+        right: 0;
+        z-index: var(--index-topmost);
+        transform: rotate(-180deg);
+        // width: 100%;
+        width: 44px;
+    }
+}
+
+@media(min-width: 520px) {
+    .swiper {
+        // width: 400px;
+    }
+    .swiper-slide {
+        // padding: 0 50px;
+        // height: 540px;
+    }
+    .swiper-button-prev {
+        img {
+            display: block;
+            width: unset;
+        }
+    }
+
+    .swiper-button-next {
+        img {
+            display: block;
+            width: unset;
+        }
+    }
+}
+@media(min-width: 768px) {
+    .swiper {
+        // width: 400px;
+    }
+}
+@media(min-width: 1200px) {
+    .swiper {
+        width: 1200px;
+        padding: 90px 0 0 0;
+
+        &-slide {
+            position: relative;
+            height: 540px;
+            padding: 0 50px; 
+        }
+
+        &-button-prev {
+            top: var(--swiper-navigation-top-offset, 50%);
+            img {
+                width: 44px;
+            }
+        }
+        &-button-next {
+            top: var(--swiper-navigation-top-offset, 50%);
+            img {
+                width: 44px;
+            }
+        }
+    }
+    .swiper-slide {
+        height: 700px;
+    }
+    
+}
