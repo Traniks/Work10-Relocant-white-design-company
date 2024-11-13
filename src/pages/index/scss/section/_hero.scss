@@ -4,8 +4,8 @@
     background: url("../img/bg-mob-1.webp");
     background-repeat: no-repeat;
     // background-size: 100% 100%;
-    background-position: clamp(-16.25rem, -25.625rem + 46.88vw, -3.125rem) 60px;
-    // background-size: cover;
+    background-position: center calc(0% - 210px);
+    background-size: cover;
 
     &__top-title {
         color: #9eadc0;
