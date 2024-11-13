@@ -26,10 +26,21 @@
 
     &__benefits {
         margin: 390px 0 0 0;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // gap: 20px;
+    }
+
+    &__benefits-wrap {
+        gap: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+    }
+
+    &__benefits-wrap:last-child {
+        margin: 20px 0 0 0;
     }
 
     &__benefit {
@@ -78,7 +89,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         gap: 20px;
     }
 
@@ -96,7 +106,7 @@
 
     &__contacts-btn {
         position: relative;
-        width: 270px;
+        width: 280px;
         height: 80px;
         // display: flex;
         // justify-content: center;
@@ -213,6 +223,10 @@
             flex-direction: row;
         }
 
+        &__benefits-wrap {
+            flex-direction: row;
+        }
+
         &__benefit {
             width: unset;
         }
@@ -227,6 +241,20 @@
             width: 300px;
             align-items: center;
             gap: 12px;
+        }
+    }
+}
+@media(min-width: 1200px) {
+    .hero {
+
+        &__benefits {
+            display: flex;
+            gap: 20px;
+            flex-direction: row;
+        }
+
+        &__benefits-wrap:last-child {
+            margin: 0;
         }
     }
 }
