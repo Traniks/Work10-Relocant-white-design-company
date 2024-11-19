@@ -1,11 +1,11 @@
 .hero {
     padding: 6px 0 0 0;
 
-    background: url("../img/bg-mob-1.webp");
-    background-repeat: no-repeat;
+    // background: url("../img/bg-mob-1.webp");
+    // background-repeat: no-repeat;
     // background-size: 100% 100%;
-    background-position: center calc(0% - 210px);
-    background-size: cover;
+    // background-position: center calc(0% - 210px);
+    // background-size: cover;
 
     &__top-title {
         color: #9eadc0;
@@ -14,6 +14,8 @@
         line-height: 21px;
         letter-spacing: 4px;
         text-transform: uppercase;
+        text-wrap: balance;
+        max-width: 650px;
     }
 
     &__title {
@@ -25,7 +27,7 @@
     }
 
     &__benefits {
-        margin: 390px 0 0 0;
+        margin: 40px 0 0 0;
         // display: flex;
         // flex-direction: column;
         // align-items: center;
